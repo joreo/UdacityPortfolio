@@ -42,22 +42,22 @@ public class MainActivity extends ActionBarActivity {
         switch(v.getId())
         {
             case R.id.button_1:
-                Toast.makeText(getApplicationContext(), "This will button will launch my Spotify streamer app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my Spotify streamer app.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_2:
-                Toast.makeText(getApplicationContext(), "This will button will launch my scores app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my scores app.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_3:
-                Toast.makeText(getApplicationContext(), "This will button will launch my library app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my library app.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_4:
-                Toast.makeText(getApplicationContext(), "This will button will launch my build it bigger app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my build it bigger app.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_5:
-                Toast.makeText(getApplicationContext(), "This will button will launch my xyz reader", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my xyz reader.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.button_6:
-                Toast.makeText(getApplicationContext(), "This will button will launch my capstone app", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "This will button will launch my capstone app.", Toast.LENGTH_SHORT).show();
                 break;
         }
 
